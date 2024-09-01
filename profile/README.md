@@ -1,6 +1,7 @@
 <p align="center">
   <picture>
-    <img src="/assets/pytask_w_text.svg" width="200">
+    <source media="(prefers-color-scheme: dark)" srcset="/assets/pytask_w_text_dark.svg">
+    <img src="/assets/pytask_w_text_light.svg" width="200">
   </picture>
 </p>
 
