@@ -1,0 +1,20 @@
+repos:
+-   repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.17
+    hooks:
+    -   id: mdformat
+        additional_dependencies: [
+            mdformat-gfm,
+            mdformat-black,
+            mdformat-pyproject,
+        ]
+        files: (profile/README\.md)
+-   repo: https://github.com/crate-ci/typos
+    rev: v1.23.6
+    hooks:
+    -   id: typos
+-   repo: meta
+    hooks:
+    -   id: check-hooks-apply
+    -   id: check-useless-excludes
+    # -   id: identity  # Prints all files passed to pre-commits. Debugging.
