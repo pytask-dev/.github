@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.17
+    rev: 1.0.0
     hooks:
     -   id: mdformat
         additional_dependencies: [
@@ -10,7 +10,7 @@ repos:
         ]
         files: (profile/README\.md)
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.23.6
+    rev: v1
     hooks:
     -   id: typos
 -   repo: meta
